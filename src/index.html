@@ -1,25 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>React + Redux - User Registration and Login Example & Tutorial</title>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <style>
-        a { cursor: pointer; }
-        .help-block { font-size: 12px; }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <title>Meetupz</title>
 </head>
+
 <body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
     <div id="app"></div>
 
-    <!-- credits -->
-    <div class="text-center">
-        <p>
-            <a href="http://jasonwatmore.com/post/2017/09/16/react-redux-user-registration-and-login-tutorial-example" target="_top">React + Redux - User Registration and Login Tutorial & Example</a>
-        </p>
-        <p>
-            <a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>
-        </p>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(() => { $(".button-collapse").sideNav(); $('select').material_select(); });
+    </script>
+    <style>
+        /* project details */
+
+        .actions li {
+            float: left;
+            padding-right: 10px;
+            padding-bottom: 18px;
+        }
+
+        .actions li a:hover {
+            color: grey;
+        }
+
+        .browser-default {
+            border: 0px;
+            border-bottom: 1px solid #9e9e9e;
+            padding: 0px;
+            color: #9e9e9e;
+        }
+
+        .collections {
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 2px;
+        }
+    </style>
 </body>
+
 </html>
