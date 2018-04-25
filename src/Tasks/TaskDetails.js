@@ -17,8 +17,6 @@ class TaskDetails extends Component {
     axios.get(`http://localhost:3000/api/tasks/${meetupId}`)
       .then(response => {
         this.setState({ details: response.data }, () => {
-          console.log("sda")
-          console.log(this.state);
         })
       })
       .catch(err => console.log("error"));
